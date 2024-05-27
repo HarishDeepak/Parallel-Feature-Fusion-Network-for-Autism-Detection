@@ -1,15 +1,35 @@
-# Dual-Block-Feature-Fusion-Network-for-Autism-detection-
-This study proposes a deep learning image classifier, that invloves dual-track feature fusion net
-work architecture comprising Swin Transformer and customised Convolutional Neural
- Network (CNN) for enhanced classification accuracy between Autism Spectrum Disor
-der (ASD) and Typical Development (TD), achieving a classification accuracy of 98.7%.
- Swin Transformers excel in capturing long-range dependencies within images, facilitat
-ing a deeper understanding of interrelations among different image components. Con
-currently, CNNs are adept at extracting local features, thus contributing to improved
- classification performance by considering both local and global features. In the second
- approach, a Quantum Support Vector Machine (QSVM) is employed to classify features
- extracted from the feature fusion network. This model operates on a quantum simula
-tor utilizing 16 qubits, achieving a classification accuracy of 96%. Notably, leveraging
- a quantum computer for feature classification could significantly accelerate predictions,
- thereby reducing computational time and improving the overall efficiency of the classi
-fication.
+# Parallel Feature Fusion Network for Autism Detection
+
+
+## Overview
+
+This repository contains the implementation of a deep learning image classifier designed to differentiate between Autism Spectrum Disorder (ASD) and Typical Development (TD). The classifier employs a dual-track feature fusion network architecture that combines a Swin Transformer with a customized Convolutional Neural Network (CNN), achieving a remarkable classification accuracy of 98.7%. Additionally, a Quantum Support Vector Machine (QSVM) is utilized for feature classification, operating on a quantum simulator with 16 qubits, and attaining a classification accuracy of 96%.
+
+## Architecture
+
+### 1. Dual-Track Feature Fusion Network
+- **Swin Transformer**: Excels in capturing long-range dependencies within images, facilitating a deeper understanding of the interrelations among different image components.
+- **Customized CNN**: Specializes in extracting local features, contributing to improved classification performance by considering both local and global features.
+
+### 2. Quantum Support Vector Machine (QSVM)
+- Utilizes features extracted from the feature fusion network.
+- Operates on a quantum simulator with 16 qubits.
+- Achieves a classification accuracy of 96%.
+- Leverages quantum computing to potentially accelerate predictions, reduce computational time, and enhance overall efficiency.
+
+## Results
+- **Feature Fusion Network**: 98.7% classification accuracy.
+- **QSVM**: 96% classification accuracy.
+
+## Prerequisites
+
+Ensure you have the following software and libraries installed:
+- Python 3.x
+- PyTorch
+- TensorFlow
+- Qiskit (for quantum simulations)
+- NumPy
+- SciPy
+- scikit-learn
+- Matplotlib
+
